@@ -1,0 +1,92 @@
+body {
+  background-color: lightcoral;
+}
+.main-section {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 160px;
+}
+h1 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+.section1 {
+  background-color: lightcoral;
+  width: 600px;
+  height: 400px;
+  transition: 6s;
+  transition-duration: 3s;
+  transition-property: all;
+  transition-timing-function: ease-in;
+  border: 2px solid black;
+  object-fit: contain;
+  padding: 20px;
+}
+.section1:hover {
+  width: 400px;
+  height: 200px;
+  transform: rotate(40deg);
+  background-color: aqua;
+  /* border-radius: 20px; */
+}
+#img:hover {
+  border-radius: 20px;
+}
+.section2 {
+  background-color: lightcoral;
+  width: 600px;
+  height: 400px;
+  transition: 6s;
+  transition-duration: 3s;
+  transition-property: all;
+  transition-timing-function: ease-in;
+  border: 2px solid black;
+  object-fit: contain;
+  padding: 20px;
+}
+.section2:hover {
+  width: 400px;
+  height: 200px;
+  transform: scale(1.5, 1.5);
+  background-color: lightgreen;
+}
+.section3 {
+  background-color: lightcoral;
+  width: 600px;
+  height: 200px;
+  transition: 6s;
+  transition-duration: 3s;
+  transition-property: all;
+  transition-timing-function: ease-in;
+  border: 2px solid black;
+  padding: 20px;
+}
+.section3:hover {
+  transform: skewX(20deg) skewY(20deg);
+  opacity: 0.5;
+}
+.section4 {
+  background-color: lightcoral;
+  width: 600px;
+  height: 200px;
+  transition: 6s;
+  transition-duration: 3s;
+  transition-property: all;
+  transition-timing-function: ease-in;
+  border: 2px solid black;
+  padding: 20px;
+}
+.section4:hover {
+  transform: translateX(30px);
+  color: blue;
+}
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 30px;
+}
